@@ -1,0 +1,11 @@
+[repository]
+name = "scroll-move-natural"
+authors = ["plugin"]
+
+[scroll-move-natural]
+description = "Inverts scroll_move gesture direction for natural scrolling"
+authors = ["plugin"]
+output = "scroll-move-natural.so"
+build = [
+    "make all",
+]
